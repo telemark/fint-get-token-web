@@ -4,7 +4,7 @@
 
 # fint-get-token-web
 
-Get fint token frontend
+Get fint token frontend written in [next.js](github.com/zeit/next.js)
 
 ## Install
 
