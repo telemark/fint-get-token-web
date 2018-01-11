@@ -11,7 +11,22 @@ Get fint token frontend
 ```bash
 git clone https://github.com/telemark/fint-get-token-web
 npm i
+npm run dev # or `npm start`
+```
+
+### Development
+```bash
 npm run dev
+```
+
+### Production running server
+```bash
+npm start
+```
+
+### Production serverless
+```bash
+npm run export # Static files is now in `out/`
 ```
 
 ## License
