@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Get fint token frontend",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test-all": "standard && nsp check && ava",
     "test": "standard && ava",
