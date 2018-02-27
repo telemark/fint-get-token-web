@@ -38,7 +38,7 @@
     "url": "https://github.com/alheimsins/fint-get-token-web/issues"
   },
   "dependencies": {
-    "axios": "0.17.1",
+    "axios": "0.18.0",
     "next": "4.2.3",
     "react": "16.2.0",
     "react-dom": "16.2.0"
