@@ -53,5 +53,8 @@
   "now": {
     "name": "fint-get-token-web",
     "alias": "fint-token.service.t-fk.no"
+  },
+  "engines": {
+    "node": ">=10.14.2"
   }
 }
