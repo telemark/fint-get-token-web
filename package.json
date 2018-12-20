@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test-all": "standard && nsp check && ava",
+    "test-all": "standard && npm audit && ava",
     "test": "standard && ava",
     "coverage": "nyc ava",
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
@@ -14,7 +14,8 @@
     "build": "next build",
     "start": "next start",
     "deploy": "next build && next export && now --public --static out/ --name fint-token.service.t-fk.no",
-    "export": "next build && next export"
+    "export": "next build && next export",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "repository": {
     "type": "git",
@@ -46,7 +47,6 @@
   "devDependencies": {
     "ava": "1.0.1",
     "coveralls": "3.0.2",
-    "nsp": "3.2.1",
     "nyc": "13.1.0",
     "standard": "12.0.1"
   },
