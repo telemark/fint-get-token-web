@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "fint-get-token-web",
+  "alias": [
+    "fint-token.service.t-fk.no"
+  ],
+  "builds": [
+    { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "out" }}
+  ]
+}
